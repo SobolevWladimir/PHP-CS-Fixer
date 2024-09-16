@@ -310,7 +310,8 @@ $bar = function () { $result = true;
                         $tokens[$previousTokenIndex]->isWhitespace()
                         && Preg::match('/\R/', $tokens[$previousTokenIndex]->getContent())
                     ) {
-                        $whitespace = ' ';
+                        //TODO:  сделал  для контсруктора
+                           // $whitespace = ' ';
                     }
                 }
             }
